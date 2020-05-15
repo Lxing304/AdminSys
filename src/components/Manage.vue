@@ -1,8 +1,8 @@
 <template>
     <div>
-        <el-row>
-            <el-col :span="4">
-                <el-menu  class=" heigth-100" :default-active="defaultActive" theme="dark" router>
+        <el-row  >
+            <el-col    :span="4">
+                <el-menu    class=" heigth-100" :default-active="defaultActive" theme="dark" router>
                 <el-menu-item index="manage"><i class="el-icon-menu"></i>首页</el-menu-item>
                 <el-submenu index='2'>
                     <template slot="title">基本信息</template>
@@ -13,7 +13,7 @@
                 </el-submenu>
                  <el-submenu index="3">
                     <template slot="title">接口管理</template>
-
+                    <el-menu-item index="apiInfo">接口信息</el-menu-item>
 
 
                     <!-- <el-menu-item >拥有接口</el-menu-item>
@@ -42,8 +42,8 @@
 </script>
 <style>
     .heigth-100{
-        width: 200px;
+        width: 100%;
         height: 800px;
-        background-color: #ff0463;
+        background-color: #ff0463; 
     }
 </style>

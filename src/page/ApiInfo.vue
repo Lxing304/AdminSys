@@ -4,10 +4,10 @@
         
         <el-row>
             <el-col :span="12">
-                <div class=" w-div" ></div>
+                <div class=" apiInfo-w-div" ></div>
             </el-col>
             <el-col :span="12">
-                <div class=" w-div" ></div>
+                <div class=" apiInfo-w-div" ></div>
             </el-col>
         </el-row>
     </div>
@@ -21,9 +21,9 @@ export default {
 }
 </script>
 <style>
-    .w-div{
+    .apiInfo-w-div{
         width: 100%;
         height: 300px;
-        background-color: red;
+        background-color:rgb(40, 218, 40);
     }
 </style>
