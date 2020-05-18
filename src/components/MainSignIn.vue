@@ -32,7 +32,7 @@ export default {
            
         },
         SignUpClick:function(){
-            alert("你点击注册按钮了！")
+            alert("你点击注册按钮了！");
         }
     }
 }

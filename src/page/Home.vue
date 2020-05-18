@@ -1,6 +1,6 @@
 <template>
     <div>
-        <head-top></head-top>
+        <dead-top></dead-top>
 		<section class="data_section">
 			<header class="section_title">数据统计</header>
 			<el-row :gutter="20" style="margin-bottom: 10px;">
@@ -16,11 +16,17 @@
                 <el-col :span="4"><div class="data_list"><span class="data_num">{{12300}}</span> 管理员</div></el-col>
             </el-row>
 		</section>
-		
+        <ChartOfDayUser></ChartOfDayUser>
     </div>
 </template>
 <script>
+ import deadTop from '../components/HeaderTit'
+ import ChartOfDayUser from '../components/ChartOfDayUser'
 export default {
+   components:{
+       deadTop,
+       ChartOfDayUser
+   }
     
 }
 </script>

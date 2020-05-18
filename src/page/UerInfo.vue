@@ -3,12 +3,9 @@
         <head-top></head-top>
         
         <el-row>
-            <el-col :span="12">
-                <div class=" w-div" ></div>
-            </el-col>
-            <el-col :span="12">
-                <div class=" w-div" ></div>
-            </el-col>
+           <div class=" w-100">
+               
+           </div>
         </el-row>
     </div>
 </template>
@@ -24,6 +21,6 @@ export default {
     .w-div{
         width: 100%;
         height: 300px;
-        background-color: red;
+        background-color: rgb(248, 244, 244);
     }
 </style>
