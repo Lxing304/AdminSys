@@ -1,7 +1,7 @@
 <template>
     <div>
         <el-row  >
-            <el-col    :span="4">
+            <el-col    :span="4" style="  min-width: 200px;">
                 <el-menu    class=" heigth-100" :default-active="defaultActive" theme="dark" router>
                 <el-menu-item index="manage"><i class="el-icon-menu"></i>首页</el-menu-item>
                 <el-submenu index='2'>
@@ -21,14 +21,10 @@
                 </el-submenu>
             </el-menu> 
             </el-col>
-            <el-col :span="20">
+            <el-col :span="20" >
                 <router-view></router-view>
             </el-col>
         </el-row>
-        
-            
-            
-    
     </div>
 </template>
 <script>
